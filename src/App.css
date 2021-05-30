@@ -1,0 +1,60 @@
+.App {
+  background-color: #F91944;
+  text-align: center;
+  background-image: url(./images/bannerBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-top:-25px;
+  height: 300px;
+  padding: 0px 0px 350px
+}
+.form-inner{
+  padding-top:50px;
+  margin-left: 500px;
+}
+.form-inner img{
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.form-inner input{
+  width: 50%;
+  height: 35px;
+  margin-bottom: 18px;
+  padding: 2px 5px;
+  border: 2px solid #F91944;
+  outline: none;
+  background-color: #F5F5F5;
+}
+.form-inner input[type=submit]{
+  width: 52%;
+  height: 38px;
+  color: #fff;
+  background-color: #F91944;
+  margin-bottom: 0px;
+}
+
+.form-inner button{
+  width: 52%;
+  height: 38px;
+  color: #fff;
+  background-color: #F91944;
+  border: none;
+  outline: none;
+  border: 2px solid transparent;
+  margin-bottom: 18px;
+}
+
+.form-inner input[type=submit]:hover, .form-inner button:hover{
+  border: 2px solid #F91944;
+  color: #F91944;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.formCheckbox input[type=checkbox]{
+  width: 5%;
+  height: 15px;
+  margin-right: -5px;
+}
